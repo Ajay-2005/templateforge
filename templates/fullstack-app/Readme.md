@@ -42,7 +42,7 @@ MONGO_URI=mongodb://localhost:27017/your-database
 
 Frontend .env:
 ```
-REACT_APP_BACKEND_URL=http://localhost:3000
+REACT_APP_BACKEND_URL=http://localhost:5000
 ```
 ##$Running the Application
 
@@ -60,7 +60,7 @@ Start the frontend development server:
     cd ../frontend
     npm start
 ```
-The backend server will run on http://localhost:3000 and the frontend development server will typically run on http://localhost:3001.
+The backend server will run on http://localhost:5000 and the frontend development server will typically run on http://localhost:3000.
 API Endpoints
 
     GET /api/hello: Example endpoint to test the backend API.
