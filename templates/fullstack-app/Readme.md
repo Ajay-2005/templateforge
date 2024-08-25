@@ -14,11 +14,6 @@ A minimal full-stack template for starting new projects with a React frontend an
 - **Dependencies**: Essential packages for both frontend and backend.
 - **Scripts**: Convenient npm scripts for running both frontend and backend servers.
 
-## Project Structure
-
-full-stack-template/ ├── backend/ │ ├── src/ │ │ ├── controllers/ │ │ │ └── exampleController.js │ │ ├── middleware/ │ │ │ └── exampleMiddleware.js │ │ ├── routes/ │ │ │ └── exampleRoutes.js │ │ ├── app.js │ │ ├── config.js │ │ └── database.js │ ├── .env │ ├── package.json │ └── README.md └── frontend/ ├── src/ │ ├── components/ │ │ └── ExampleComponent.js │ ├── pages/ │ │ └── Home.js │ ├── App.js │ ├── index.js │ └── .env ├── public/ │ └── index.html ├── package.json └── README.md
-
-markdown
 
 
 ## Getting Started
@@ -28,7 +23,6 @@ markdown
 - [Node.js](https://nodejs.org) (v14 or later)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 
-### Installation
 
 
 ###Environment Configuration
@@ -71,25 +65,5 @@ API Endpoints
 
     GET /api/hello: Example endpoint to test the backend API.
 
-Directory Structure
 
-   backend/: Contains the Express.js backend.
-        src/: Source code for the backend.
-            controllers/: Contains controllers for handling requests.
-            middleware/: Contains middleware functions.
-            routes/: Contains route definitions.
-            app.js: Entry point for the Express.js application.
-            config.js: Configuration file for environment variables.
-            database.js: Database connection setup.
-        .env: Environment configuration for the backend.
-
-   frontend/: Contains the React frontend.
-        src/: Source code for the frontend.
-            components/: Contains React components.
-            pages/: Contains React pages.
-            App.js: Main React component.
-            index.js: Entry point for the React application.
-            .env: Environment configuration for the frontend.
-        public/: Public files for the React application.
-            index.html: Main HTML file for the frontend.
         package.json: Defines frontend dependencies and scripts.
