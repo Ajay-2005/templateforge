@@ -25,7 +25,7 @@ A minimal full-stack template for starting new projects with a React frontend an
 
 
 
-####Environment Configuration
+# Environment Configuration
 
 Create a .env file in both the backend and frontend directories.
 
