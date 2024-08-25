@@ -1,5 +1,7 @@
 
 
+
+
 # Full Stack Template
 
 A minimal full-stack template for starting new projects with a React frontend and an Express.js backend. This template includes basic boilerplate code for both the frontend and backend, with built-in support for API interactions and environment configuration.
@@ -28,58 +30,42 @@ markdown
 
 ### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/full-stack-template.git
-   cd full-stack-template
 
-    Install backend dependencies:
-
-    bash
-
-cd backend
-npm install
-
-Install frontend dependencies:
-
-bash
-
-    cd ../frontend
-    npm install
-
-Environment Configuration
+###Environment Configuration
 
 Create a .env file in both the backend and frontend directories.
 
 Backend .env:
 
-bash
-
+env
+```
 PORT=3000
 MONGO_URI=mongodb://localhost:27017/your-database
 
+```
+
+
+
 Frontend .env:
-
-arduino
-
+```
 REACT_APP_BACKEND_URL=http://localhost:3000
+```
+##$Running the Application
 
-Running the Application
+ Start the backend server:
 
-    Start the backend server:
-
-    bash
-
+   
+```
 cd backend
 npm start
-
+```
 Start the frontend development server:
 
-bash
 
+```
     cd ../frontend
     npm start
-
+```
 The backend server will run on http://localhost:3000 and the frontend development server will typically run on http://localhost:3001.
 API Endpoints
 
@@ -87,7 +73,7 @@ API Endpoints
 
 Directory Structure
 
-    backend/: Contains the Express.js backend.
+   backend/: Contains the Express.js backend.
         src/: Source code for the backend.
             controllers/: Contains controllers for handling requests.
             middleware/: Contains middleware functions.
@@ -97,7 +83,7 @@ Directory Structure
             database.js: Database connection setup.
         .env: Environment configuration for the backend.
 
-    frontend/: Contains the React frontend.
+   frontend/: Contains the React frontend.
         src/: Source code for the frontend.
             components/: Contains React components.
             pages/: Contains React pages.
