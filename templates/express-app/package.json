@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "A simple Express.js application",
   "main": "src/app.js",
-  "repository":{
-    "type":"git",
-    "url":"https://github.com/Ajay-2005/templateforge"
-  },
-  "keywords":["template","boilerplate","express","node js","full stack"],
+ 
   "scripts": {
       "start": "nodemon src/app.js"
   },
